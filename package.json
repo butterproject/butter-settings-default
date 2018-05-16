@@ -1,0 +1,10 @@
+{
+  "name": "butter-settings-default",
+  "version": "0.0.1",
+  "description": "basic settings for butter app, these should be imported in any butter-settings-* package",
+  "main": "index.js",
+  "repository": "https://github.com/butterproject/butter-settings-default",
+  "author": "Niv Sardi <x@btn.sh>",
+  "license": "GPL3.0",
+  "private": false
+}
