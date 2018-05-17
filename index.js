@@ -4,7 +4,9 @@ const path = require('path')
 const os = require('os')
 
 /** Default settings **/
-var Settings = {
+var Settings = new Object({
+    set: function (key, value) {this[key] = value},
+    get: function (key) {return this[key]},
     projectName: 'Butter',
     projectUrl: 'http://butterproject.org',
     projectTwitter: 'butterproject',
@@ -50,7 +52,7 @@ var Settings = {
     tmdb: {
         api_key: '1a83b1ecd56e3ac0e509b553b68c77a9'
     }
-};
+});
 
 Settings.tabs = {
     movie: {
